@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:th="https://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>About</title>
@@ -10,7 +10,7 @@
 <h1>It's about page</h1>
 <br>
 <br>
-<h2><p th:text=" 'my name is'+ $(name)"/></h2>
+<h2><p th:text=" 'my name is'+ ${name}"/></h2>
 <br>
 <br>
 
